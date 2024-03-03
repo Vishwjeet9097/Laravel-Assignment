@@ -8,7 +8,7 @@ This is a simple task management system web application built with [jQuery](http
 
 ### Prerequisites
 
--   PHP >= 7.4
+-   PHP >= 7.4 && < 8.2
 -   Composer
 
 ### Installation
@@ -22,26 +22,28 @@ This is a simple task management system web application built with [jQuery](http
     cd task-management-system
     ```
 3. Install PHP dependencies with Composer:
+
     ```
-    composer install
+     composer install
     ```
-4. Install JavaScript dependencies with npm:
-    ```
-    npm install
-    ```
-5. Copy the `.env.example` file to `.env`:
+
+4. Copy the `.env.example` file to `.env`:
     ```
     cp .env.example .env
     ```
-6. Generate an application key:
+5. Generate an application key:
     ```
     php artisan key:generate
     ```
-7. Configure your database connection in the `.env` file.
+6. Configure your database connection in the `.env` file.
 
+7. Migrate the database:
+    ```
+    php artisan migrate --seed
+    ```
 8. Migrate the database:
     ```
-    php artisan migrate
+    php artisan serve
     ```
 
 ## Usage
