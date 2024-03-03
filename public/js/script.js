@@ -52,6 +52,9 @@ function submitForm() {
         success: function (response) {
             $("#taskForm")[0].reset();
             $("#success_msg").text(response.message);
+            setTimeout(() => {
+                $("#success_msg").text("");
+            }, 2000);
             getAllTask();
         },
         error: function (xhr, status, error) {

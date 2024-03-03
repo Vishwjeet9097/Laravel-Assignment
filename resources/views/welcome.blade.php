@@ -74,12 +74,19 @@
                                 </select>
                                 <div class="error-message text-danger" id="priority_error"></div>
                             </div>
-                            <div class="mb-3">
+                            <!-- <div class="mb-3">
                                 <button type="button" id="submitForm" class="btn btn-outline-success w-100"
                                     onclick="submitForm();">Submit</button>
                                 <button type="button" id="updateForm"
                                     class="btn btn-outline-success w-100 d-none updateForm">Update</button>
+                            </div> -->
+                            <div class="mb-3">
+                                <button type="button" id="submitForm"
+                                    class="btn btn-outline-success w-100 taskSubmit">Submit</button>
+                                <button type="button" id="updateForm"
+                                    class="btn btn-outline-success w-100 d-none updateForm">Update</button>
                             </div>
+
                         </div>
                     </form>
 
