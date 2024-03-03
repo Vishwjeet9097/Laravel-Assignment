@@ -1,0 +1,133 @@
+.custom-card {
+    border: none;
+    box-shadow: -2px 3px 10px rgb(74 206 255 / 10%);
+    border-radius: 10px;
+
+    .custom-card-header{
+        border-radius: 10px;
+        box-shadow: -2px -1px 6px rgb(45 255 47 / 10%);
+        background: lightgoldenrodyellow;
+    }
+}
+.header{
+    background: floralwhite;
+        padding: 20px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        font-size: 24px;
+        color: blueviolet;
+        font-weight: 700;
+}
+.todo-card {
+    background: #D4CDFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.todo-card .heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid #5941e8;
+}
+
+.inprogress-card {
+    background-color: #CAE4FE;
+    border: none;
+    border-radius: 10px;
+}
+
+.inprogress-card .heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid #007fff;
+}
+
+.completed-card {
+    background-color: #cafed7;
+    border: none;
+    border-radius: 10px;
+}
+
+.completed-card .heading {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid green;
+}
+
+.task-card {
+    border-radius: 10px;
+    background: #ffffffb5;
+    backdrop-filter: blur(10px);
+    border: 3px solid #fff;
+    box-shadow: 3px 3px 10px rgb(255 255 255 / 20%);
+
+    h5 {
+        color: #1B64AA;
+        min-height: 50px;
+    }
+
+    .bottom-element {
+        display: flex;
+        justify-content: space-between;
+
+        span:nth-child(1) {
+            color: #7FBAF2;
+            /* Set the color for the second child element (10:30AM) */
+        }
+
+    }
+
+    .high-priority {
+        color: red;
+        background: #fbdede;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        border-radius: 10px;
+        /* color: #fff; */
+        font-weight: 600;
+        border: 1px solid red;
+    }
+
+    .medium-priority {
+        color: #ff9b00;
+        background: #fbf5de;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        border-radius: 10px;
+        /* color: #fff; */
+        font-weight: 600;
+        border: 1px solid #ffc01f;
+    }
+
+    .low-priority {
+        color: #0031fb;
+        background: #b6e1ff;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        border-radius: 10px;
+        /* color: #fff; */
+        font-weight: 600;
+        border: 1px solid #4a62f1;
+    }
+}
+.fa-pen-to-square{
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin: 0 5px;
+    background-color: #d4fffd;
+    color: #64e8e0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
+.fa-trash{
+    font-size: 15px;
+    padding: 6px 7.5px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background-color: #f83d2730;
+    color: #ff2500;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
