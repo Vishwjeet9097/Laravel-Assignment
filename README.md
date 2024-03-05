@@ -1,4 +1,4 @@
-<h2 align="left">Hi, 👋 I'm Vishwjeet Kumar and I'm a Software Engineer from Bihar, India</h2>
+<h2 align="left">Hi, 👋 I'm Vishwjeet and I'm a Software Engineer from Bihar, India</h2>
 
 ###
 
